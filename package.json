@@ -9,8 +9,10 @@
   "dependencies": {
     "axios": "^1.4.0",
     "date-fns": "^2.30.0",
+    "dracula-prism": "^2.1.13",
     "gray-matter": "^4.0.3",
     "next": "^13.4.7",
+    "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

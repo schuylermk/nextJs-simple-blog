@@ -44,7 +44,7 @@ export default function ApiDisplay() {
       <section className={utilStyles.headingMd}>
         <h3>API Routes</h3>
         <p>API routes provide a solution to build your API with Next.js. By creating a function inside the pages/api directory known as a Serverless Function, Next.js allows you to create an API endpoint within your app.
-        See below for the one we'll use to store a simple text string.</p>
+        See below for the one we&apos;ll use to store a simple text string.</p>
         <pre><code className="language-jsx">{`
 export default function handler(req, res) {
   res.status(200).json({ text: 'Hello' });

@@ -26,7 +26,7 @@ export default function ApiDisplay() {
     };
     highlight(); 
     // Make the HTTP request to the Serverless Function
-    axios.get('http://localhost:3000/api/hello')
+    axios.get('http://127.0.0.1:3000/api/hello')
       .then((response) => {
         // Once the data is fetched, set the 'text' state with the value of 'text' property from the response
         setText(response.data.text);

@@ -3,4 +3,4 @@ title: 'API Routes'
 date: '2023-07-12'
 ---
 
-{{text}}
+This is the api routes description page.
